@@ -1,5 +1,6 @@
 # Drink_Finder
 * A web application used to store and find your favorite drinks.
+* Screenshots included in screenshot folder
 
 # Features
 * User Signup with bycrypt encryption
