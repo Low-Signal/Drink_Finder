@@ -14,3 +14,6 @@
 * Must move Drink_Finder folder to XAMMP/htdocs
 * Start Apache server and SQL server
 * Navigate to website with at localhost/Drink_Finder
+
+# TODO
+* Create more secure email verification.
