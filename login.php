@@ -23,7 +23,7 @@ else{
         $_SESSION['active'] = $user['active'];
 
         $_SESSION['logged_in'] = true;
-        header("location: profile.php");
+        header("location: activate_account.php");
     }
     else {
         $_SESSION['message'] = " Invalid password, try again.";

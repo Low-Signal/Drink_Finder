@@ -42,11 +42,11 @@ else{
         Thank you for registering an account!
         
         Please click this link to activate your account:
-        http://localhost/drink_finder/verify.php?email='.$email.'&hash='.$hash;
+        http://localhost:8080/drink_finder/verify.php?email='.$email.'&hash='.$hash;
 
         mail($to, $subject, $message_body);
 
-        header("location: profile.php");
+        header("location: activate_account.php");
 
     }
     else{

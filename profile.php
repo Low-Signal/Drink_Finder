@@ -88,24 +88,24 @@ else{
       <?php 
       
       // Informs user about account verification
-      if ( isset($_SESSION['message']) )
-      {
-        echo $_SESSION['message'];
-        unset($_SESSION['message']);
-      }
+      // if ( isset($_SESSION['message']) )
+      // {
+      //   echo $_SESSION['message'];
+      //   unset($_SESSION['message']);
+      // }
 
       ?>
       </p>
       <?php
             
       // Keep reminding the user this account is not active, until they activate
-        if ( !$active ){
-          echo
-          '<div class="info">
-          Account is unverified, please confirm your email by clicking
-          the link that was sent to your email address.
-          </div>';
-        }
+        // if ( !$active ){
+        //   echo
+        //   '<div class="info">
+        //   Account is unverified, please confirm your email by clicking
+        //   the link that was sent to your email address.
+        //   </div>';
+        // }
       ?>
         <ul class="tab-group">
             
